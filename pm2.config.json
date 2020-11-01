@@ -1,0 +1,9 @@
+{
+    "actions-rebuild": [
+        {
+            "name": "actions-rebuild",
+            "script": "npm",
+            "args": "build"
+        }
+    ]
+}

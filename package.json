@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "actions-rebuild",
+  "version": "1.0.0",
+  "description": "服务于strapi的webhook，作用是自动触发github actions的自动构建",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aisen60/actions-rebuild.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aisen60/actions-rebuild/issues"
+  },
+  "homepage": "https://github.com/Aisen60/actions-rebuild#readme",
+  "dependencies": {
+    "@octokit/rest": "^18.0.7",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
