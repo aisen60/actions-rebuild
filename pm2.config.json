@@ -3,7 +3,7 @@
         {
             "name": "actions-rebuild",
             "script": "npm",
-            "args": "build"
+            "args": "start"
         }
     ]
 }

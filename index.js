@@ -27,7 +27,8 @@ const port = 1338;
 // });
 
 app.all("/", (req, res) => {
-  res.send("123");
+  console.log(req.params);
+  res.send(req.params);
 });
 
 app.listen(port, () => {
